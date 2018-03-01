@@ -1,21 +1,21 @@
 # Web crawling with scrapy python
 
-	Web Scraping for marvel all time movies from [Marvel](https://marvel.com/movies/all)
+Web Scraping for marvel all time movies from [Marvel](https://marvel.com/movies/all)
 
 ## Getting Started
 
-	Scrapy is an application framework for crawling web sites and extracting structured data which can be used for a wide range of useful applications, like data mining, information processing or historical archival.
+Scrapy is an application framework for crawling web sites and extracting structured data which can be used for a wide range of useful applications, like data mining, information processing or historical archival.
 
 ## Installing
 
-    [scrapy installation](https://doc.scrapy.org/en/latest/intro/install.html)
+[scrapy installation](https://doc.scrapy.org/en/latest/intro/install.html)
 
 
 ## Creating a project
 	
-	scrapy startproject tutorial
+scrapy startproject tutorial
 
-	```
+```
 	  tutorial/
 	    scrapy.cfg            # deploy configuration file
 	    tutorial/             # project's Python module, you'll import your code from here
@@ -27,7 +27,7 @@
         spiders/          # a directory where you'll later put your spiders
             __init__.py
             *** add "marvel_spider.py" in side spider folder
-    ```
+```
 
 
 ## class & tegs 
@@ -39,13 +39,14 @@
 	</div>
 
 ## Data Extraction
-	using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html?highlight=select) to Extract required fields.
+	
+using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html?highlight=select) to Extract required fields.
 
-    ```
-	BeautifulSoup(response.body, "lxml")
-	```
+```
+BeautifulSoup(response.body, "lxml")
+```
 
 ## Runing spider and write data to csv file 
-	scrapy crawl marvel_spider -o input_2.csv
+scrapy crawl marvel_spider -o input_2.csv
 
 
