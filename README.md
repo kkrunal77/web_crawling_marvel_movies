@@ -41,6 +41,7 @@ Above commands will create a following folders and files
 ## Data Extraction
 	
 using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html?highlight=select) to Extract required fields.
+[More.](http://www.compjour.org/warmups/govt-text-releases/intro-to-bs4-lxml-parsing-wh-press-briefings/)
 
 ```
 BeautifulSoup(response.body, "lxml")
