@@ -26,7 +26,7 @@ above commands will create a following folders and files
         settings.py       # project settings file
         spiders/          # a directory where you'll later put your spiders
             __init__.py
-            *** add "marvel_spider.py" in side spider folder
+            *** add "marvel_spider.py" in side spiders folder
 ```
 
 
@@ -47,4 +47,4 @@ BeautifulSoup(response.body, "lxml")
 ```
 
 ## Runing spider and write data to csv file 
-	scrapy crawl marvel_spider -o input_2.csv
+	scrapy crawl marvel_spider -o marvel_movies.csv
