@@ -12,9 +12,11 @@ Scrapy is an application framework for crawling web sites and extracting structu
 
 
 ## Creating a project
-	
-scrapy startproject tutorial
 
+```
+#scrapy startproject tutorial
+```
+above commands will create a following folders and files
 ```
 	  tutorial/
 	    scrapy.cfg            # deploy configuration file
@@ -47,6 +49,7 @@ BeautifulSoup(response.body, "lxml")
 ```
 
 ## Runing spider and write data to csv file 
-scrapy crawl marvel_spider -o input_2.csv
-
+```
+#scrapy crawl marvel_spider -o input_2.csv
+```
 
