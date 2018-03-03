@@ -51,4 +51,4 @@ BeautifulSoup(response.body, "lxml")
 	scrapy crawl marvel_spider -o marvel_movies.csv
 
 ## Marvel Characters find class and tegs 
-[marvel_characters]('http://marvel.com/comics/characters') For Characters Link
+[marvel_characters](http://marvel.com/comics/characters/) For Characters Link
